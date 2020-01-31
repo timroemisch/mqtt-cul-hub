@@ -1,0 +1,16 @@
+{
+  "name": "mqtt-fs20-hub",
+  "version": "1.0.0",
+  "description": "Connection Fs20 devices with mqtt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Tim Römisch",
+  "license": "ISC",
+  "dependencies": {
+    "cul": "^0.8.1",
+    "mqtt": "^2.14.0"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "debug": true,
+
+  "mqtt": {
+    "host": "mqtt://192.168.1.100:1883",
+    "user": "user",
+    "password": "secret",
+    "rejectUnauthorized": false
+  },
+
+  "cul": {
+    "connectionMode": "serial",
+    "serialport": "/dev/cu.usbmodem1411",
+    "host": "192.168.1.110"
+  },
+
+  "devices": [{
+      "mqtt": "home/cul/regler",
+
+      "fht": {
+        "centralCode": "0011",
+        "address": "7683"
+      }
+    },
+    {
+      "mqtt": "home/cul/temp",
+
+      "ws": {
+        "address": "0"
+      }
+    },
+    {
+      "mqtt": "home/switch",
+
+      "fs20": {
+        "address": "1122 3344",
+        "device": "1111"
+      }
+    }
+  ]
+}
