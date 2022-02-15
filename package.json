@@ -10,7 +10,7 @@
   "author": "Tim Römisch",
   "license": "ISC",
   "dependencies": {
-    "cul": "^0.8.1",
+    "cul": "^0.17.0",
     "mqtt": "^2.14.0"
   }
 }
